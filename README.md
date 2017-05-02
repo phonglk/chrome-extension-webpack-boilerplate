@@ -3,7 +3,9 @@ Chrome Extension with Webpack minimal boilerplate
 
 
 Includes:
-- Webpack, LESS, React
+- Webpack, LESS
+- Eslint (airbnb)
+- Lodash
 
 Skeleton:
 - Content Script
