@@ -4,14 +4,15 @@
   "description": "Chrome Extension with Webpack Minimal Boilerplate ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build-dll": "webpack --config=dll.webpack.config.js",
     "build-css": "webpack --config=css.webpack.config.js",
     "dev": "webpack --config=webpack.config.js --progress --colors --watch",
     "build-prod-css": "env PRODUCTION=1 webpack --config=css.webpack.config.js",
     "build-prod-dll": "env PRODUCTION=1 webpack --config=dll.webpack.config.js",
     "build-prod-src": "env PRODUCTION=1 webpack",
-    "build-prod": "npm run build-prod-dll && npm run build-prod-css && npm run build-prod-src"
+    "build-prod": "npm run build-prod-dll && npm run build-prod-css && npm run build-prod-src && build-zip",
+    "zip": "zip -r -o packed.zip dist/packed/",
+    "build-prod-src-only": "npm run build-prod-src && npm run zip"
   },
   "repository": {
     "type": "git",
@@ -60,8 +61,6 @@
   "dependencies": {
     "core-decorators": "^0.17.0",
     "lodash": "^4.17.4",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
     "style-loader": "^0.13.1"
   }
 }

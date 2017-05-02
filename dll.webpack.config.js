@@ -14,8 +14,6 @@ module.exports = {
     ],
     ui: [
       'style-loader',
-      'react',
-      'react-dom',
     ],
   },
 
@@ -24,18 +22,6 @@ module.exports = {
     path: path.resolve(distPath),
     library: '[name]_lib',
   },
-
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.js$/,
-  //       // exclude: /node_modules/,
-  //       use: [
-  //         { loader: 'babel-loader' }
-  //       ],
-  //     },
-  //   ]
-  // },
 
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
