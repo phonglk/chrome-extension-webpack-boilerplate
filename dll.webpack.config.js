@@ -12,9 +12,6 @@ module.exports = {
       'core-decorators',
       'lodash',
     ],
-    ui: [
-      'style-loader',
-    ],
   },
 
   output: {

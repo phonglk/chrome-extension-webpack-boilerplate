@@ -32,7 +32,6 @@
   },
   "homepage": "https://github.com/phonglk/chrome-extension-webpack-boilerplate#readme",
   "devDependencies": {
-    "automate-chrome-extension-update": "1.0.8",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
@@ -59,6 +58,7 @@
     "webpack": "^2.4.1"
   },
   "dependencies": {
+    "automate-chrome-extension-update": "^1.0.8",
     "core-decorators": "^0.17.0",
     "lodash": "^4.17.4",
     "style-loader": "^0.13.1"

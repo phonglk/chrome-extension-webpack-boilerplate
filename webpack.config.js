@@ -41,10 +41,6 @@ module.exports = {
       context: '.',
       manifest: require(distPath + 'common-manifest.json')
     }),
-    new webpack.DllReferencePlugin({
-      context: '.',
-      manifest: require(distPath + 'ui-manifest.json')
-    }),
     /* Add more webpack.DllReferencePlugin if needed */
     new CopyWebpackPlugin([
       {
