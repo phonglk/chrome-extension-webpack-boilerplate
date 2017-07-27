@@ -1,6 +1,11 @@
 # chrome-extension-webpack-boilerplate
 Chrome Extension with Webpack minimal boilerplate
 
+Clone to existing repo:
+
+`git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo
+rm -rf !$/.git`
+
 
 Includes:
 - Webpack, LESS
