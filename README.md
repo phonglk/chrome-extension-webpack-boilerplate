@@ -3,8 +3,7 @@ Chrome Extension with Webpack minimal boilerplate
 
 Clone to existing repo:
 
-`git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo
-rm -rf !$/.git`
+`git clone --depth=1 --branch=master https://github.com/phonglk/chrome-extension-webpack-boilerplate.git tmp;rm -rf tmp/.git;mv -rf tmp/* .;rm -rf tmp;`
 
 
 Includes:
